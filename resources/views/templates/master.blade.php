@@ -54,8 +54,16 @@
             @endif
         </ul>
         <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider" tabindex="-1"></li>
+            <li><a href="#!">three</a></li>
+            <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+          </ul>
+        {{-- <ul id='dropdown1' class='dropdown-content'>
                 <li><a href="{{ route('logout') }}">Logout</a></li>
-        </ul>
+        </ul> --}}
           @yield('content')
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="{{ asset('libs/materialize/js/materialize.min.js') }}"></script>
